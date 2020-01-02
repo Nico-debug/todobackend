@@ -1,5 +1,5 @@
-FROM jmenga/todobackend-base:latest
-MAINTAINER Justin Menga <justin.menga@gmail.com>
+FROM nicolasmartin58/todobackend-base:latest
+MAINTAINER nicolasmartin58<nicolasmartin58@gmail.com>
 
 # Install dev/build dependencies
 RUN apt-get update && \
@@ -32,4 +32,3 @@ CMD ["python", "manage.py", "test", "--noinput"]
 # Add application source
 COPY src /application
 WORKDIR /application
-

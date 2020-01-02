@@ -1,0 +1,5 @@
+FROM nginx
+MAINTAINER nicolasmartin58 <nicolasmartin58@gmail.com>
+
+#copy configuration Dockerfile
+COPY todobackend.conf /etc/nginx/conf.d/todobackend.conf
