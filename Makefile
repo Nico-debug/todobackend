@@ -11,7 +11,7 @@ DEV_PROJECT := $(REL_PROJECT)dev
 # Application Service Name - must match Docker Compose release specification application service name
 APP_SERVICE_NAME := app
 
-# Build tag expression - can be used to evaulate a shell expression at runtime
+# Build tag expression - can be used to evaluate a shell expression at runtime
 BUILD_TAG_EXPRESSION ?= date -u +%Y%m%d%H%M%S
 
 # Execute shell expression
