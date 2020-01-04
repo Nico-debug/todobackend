@@ -12,6 +12,7 @@ node {
         }
 
         stage ('Create release environment and run acceptance tests') {
+            sh 'make clean'
             sh 'make release'
         }
 
