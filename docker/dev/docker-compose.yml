@@ -36,7 +36,7 @@ db:
     - "3306"
   environment:
     MYSQL_ROOT_PASSWORD: password
-    innodb: OFF
+    innodb: "OFF"
 
 cache:
   build: ../../
