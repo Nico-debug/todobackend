@@ -30,12 +30,13 @@ agent:
   command: ["probe.yml"]
 
 db:
-  image: mysql:8.0
+  image: mysql:5.6
   hostname: db
   expose:
     - "3306"
   environment:
     MYSQL_ROOT_PASSWORD: password
+    innodb: OFF
 
 cache:
   build: ../../
