@@ -54,6 +54,7 @@ db:
     MYSQL_USER: todo
     MYSQL_PASSWORD: password
     MYSQL_ROOT_PASSWORD: password
+    innodb: "OFF"
 
 agent:
   image: nicolasmartin58/ansible
