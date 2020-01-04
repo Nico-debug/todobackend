@@ -33,7 +33,7 @@ DOCKER_REGISTRY_AUTH ?=
 .PHONY: test build release clean tag login logout publish
 
 test:
-	${INFO} "Pulling the latest images..."
+	${INFO} "Pulling the  latest images..."
 	@ docker-compose -p $(DEV_PROJECT) -f $(DEV_COMPOSE_FILE) pull
 	${INFO} "Building images..."
 	@ docker-compose -p $(DEV_PROJECT) -f $(DEV_COMPOSE_FILE) build --pull test
