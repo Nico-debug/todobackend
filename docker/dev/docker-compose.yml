@@ -38,6 +38,8 @@ db:
     MYSQL_ROOT_PASSWORD: password
     innodb: "OFF"
     default-storage-engine : "myisam"
+  volumes:
+    - /tmp/mysql:/var/lib/mysql
 
 cache:
   build: ../../

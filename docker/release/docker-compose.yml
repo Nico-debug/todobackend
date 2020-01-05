@@ -54,8 +54,8 @@ db:
     MYSQL_USER: todo
     MYSQL_PASSWORD: password
     MYSQL_ROOT_PASSWORD: password
-    innodb: "OFF"
-    default-storage-engine : "myisam"
+  volumes:
+    - /tmp/mysql:/var/lib/mysql
 
 agent:
   image: nicolasmartin58/ansible
