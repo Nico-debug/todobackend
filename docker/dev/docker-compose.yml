@@ -36,7 +36,7 @@ db:
     - "3306"
   environment:
     MYSQL_ROOT_PASSWORD: password
-    innodb_buffer_pool_size: 16M
+  mem_limit: 500m
 
 cache:
   build: ../../

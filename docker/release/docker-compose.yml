@@ -54,7 +54,7 @@ db:
     MYSQL_USER: todo
     MYSQL_PASSWORD: password
     MYSQL_ROOT_PASSWORD: password
-    innodb_buffer_pool_size: 16M 
+  mem_limit: 500m
 
 agent:
   image: nicolasmartin58/ansible
