@@ -37,8 +37,8 @@ db:
   environment:
     MYSQL_ROOT_PASSWORD: password
     innodb: "OFF"
-    ignore-builtin-innodb
-    skip-innodb
+    ignore-builtin-innodb : ""
+    skip-innodb : ""
     default-storage-engine : "myisam"
     default-tmp-storage-engine : "myisam"
 
