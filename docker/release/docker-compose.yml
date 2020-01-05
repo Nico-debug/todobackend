@@ -46,7 +46,7 @@ webroot:
   entrypoint: "true"
 
 db:
-  image: awin/docker-mysql
+  image: alexanderkoller/low-memory-mysql
   expose:
     - "3306"
   environment:
