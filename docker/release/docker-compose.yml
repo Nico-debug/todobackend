@@ -46,7 +46,7 @@ webroot:
   entrypoint: "true"
 
 db:
-  image: alexanderkoller/low-memory-mysql
+  image: akoller/low-memory-mysql
   expose:
     - "3306"
   environment:

@@ -30,7 +30,7 @@ agent:
   command: ["probe.yml"]
 
 db:
-  image: alexanderkoller/low-memory-mysql
+  image: akoller/low-memory-mysql
   hostname: db
   expose:
     - "3306"
