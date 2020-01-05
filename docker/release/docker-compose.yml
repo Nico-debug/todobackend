@@ -55,6 +55,7 @@ db:
     MYSQL_PASSWORD: password
     MYSQL_ROOT_PASSWORD: password
     innodb: "OFF"
+    default-storage-engine : "myisam"
 
 agent:
   image: nicolasmartin58/ansible
