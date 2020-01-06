@@ -1,5 +1,5 @@
 #!/bin/bash
-# Activate virtual environment
+# Activate virtual environment comment
 . /appenv/bin/activate
 
 # Download requirements to build cache
